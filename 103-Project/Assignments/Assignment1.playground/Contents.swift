@@ -33,4 +33,5 @@ func studentSummary(name: String, grades: [Int]) -> String{
         Average: \(avg)
         """
 }
+print(studentSummary)
 

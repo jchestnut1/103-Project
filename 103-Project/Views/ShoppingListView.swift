@@ -30,7 +30,7 @@ struct ShoppingListView: View {
                         ForEach(shoppingList, id: \.self){ item in
                                 Text(item)
                         }
-                    }
+                    }//End List
                     
                     HStack{
                         TextField("Add new Grocery item...", text: $newItem)
@@ -65,11 +65,11 @@ struct ShoppingListView: View {
             .toolbar {
                 Menu{
                     Button("Sort A -> Z"){
-                        
+                        shoppingList = shoppingList.sorted()
                     }
                     
                     Button("Reverse Order"){
-                        
+                        shoppingList = shoppingList.reversed()
                     }
                 }
                 
