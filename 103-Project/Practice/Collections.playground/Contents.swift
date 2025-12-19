@@ -55,3 +55,14 @@ var studentDictionary: [String:Int] = [
 ]
 print("The student grades are as follows \(studentDictionary)")
 
+
+//Structure of a Class
+print("------------Structure of a Class-------------")
+class ClassName {
+    //Attributes
+    
+    //Ininitializer
+    
+    //Methods
+}
+
