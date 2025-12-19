@@ -5,7 +5,10 @@
 //  Created by Jay Chestnut on 12/18/25.
 //
 
-class Professor{
+import Foundation
+
+class Professor: Identifiable {
+    let id = UUID()
     
     var name: String
     var lastName: String
@@ -17,4 +20,3 @@ class Professor{
         self.phone = phone
     }
 }
-
